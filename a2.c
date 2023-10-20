@@ -144,9 +144,6 @@ void match(char *regexp, char *text, int *matches, int *num_matches) {
             text_index++;
         }
     }
-
-    // End of indices marker, not really used but I thought it would be nice to have
-    matches[*num_matches] = -1; 
 }
 
 /* matchhere: search for regexp at beginning of text */
