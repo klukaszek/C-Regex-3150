@@ -295,6 +295,12 @@ int matchplus(char *regexp, char *text, int *skip_indices)
                     cur_regex = regexp;
                 }
 
+                // Check if we are at the end of the regex to avoid an invalid memory access
+                if (*regexp == '\0')
+                {
+                    break;
+                }
+
                 // Go to next character in the regex
                 regexp+=1;
 
