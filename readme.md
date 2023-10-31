@@ -6,6 +6,8 @@ ID: 1113798
 
 Due: October 20th, 2023
 
+## Final Grade: 100%
+
 ## Compilation
 
 To compile the program, run the following command:
